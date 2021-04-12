@@ -8,3 +8,4 @@
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[JavaScript](./solutions/342.%20Power%20of%20Four.js)|92 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[JavaScript](./solutions/344.%20Reverse%20String.js)|116 ms|
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[JavaScript](./solutions/912.%20Sort%20an%20Array.js)|104 ms|
+|1400|[ Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|[JavaScript](./solutions/1400.%20Construct%20K%20Palindrome%20Strings.js)|132 ms|
