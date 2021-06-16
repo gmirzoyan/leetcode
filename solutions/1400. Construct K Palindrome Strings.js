@@ -4,13 +4,17 @@
  * @return {boolean}
  */
 var canConstruct = function(s, k) {
- let obj = {};
+      if (s.length === k) return true;
+    if (s.length < k) return false;
     let count = 0;
-   for (let el of s) {
-      if (obj[el]) obj[el]++;
-      else obj[el] = 1;
-      if(obj[el] % 2) count++;
-      else count--;
-   }     
-    return count <= k && s.length >= k;
-}
+    let obj = {};
+    for (let el of s) {
+        if (obj[el]) obj[el]++;
+        else obj[el] = 1;
+    }
+    let res = Object.values(obj);
+    for (let el of res) {
+      if (el % 2 === 1) count++;
+    }
+  return count <= k;
+};
